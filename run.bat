@@ -1,0 +1,4 @@
+@SET SCRIPT_DIR=%~dp0
+@SET PYTHONPATH=%SCRIPT_DIR%
+
+python %SCRIPT_DIR%run.py %*
